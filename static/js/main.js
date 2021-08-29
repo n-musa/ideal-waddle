@@ -9,8 +9,8 @@ const router = async () => {
     const routes = [
         {path: "/",
         view: dashboard},
-    //    {path: "/posts"},
-     /*    view: () => console.log("On posts")},
+     /*   {path: "/posts"},
+        view: () => console.log("On posts")},
         {path: "/settings",
         view: () => console.log("On settings")} */
     ]
@@ -37,6 +37,8 @@ const router = async () => {
 
     console.log( new matchFound.route.view());
 };
+
+
 window.addEventListener("popstate", router)
 document.addEventListener("DOMContentLoaded", () => {
     document.body.addEventListener("click",  e => {
