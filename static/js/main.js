@@ -9,9 +9,11 @@ const router = async () => {
     const routes = [
         {path: "/",
         view: dashboard},
-     /*   {path: "/posts"},
-        view: () => console.log("On posts")},
-        {path: "/settings",
+
+     /*    {path: "/articles",
+        view: "/articles"} */
+
+    /*    {path: "/settings",
         view: () => console.log("On settings")} */
     ]
 
