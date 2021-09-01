@@ -1,5 +1,5 @@
 body {
-    --nav-width: 20px;
+    --nav-width: 200px;
     margin: 0 0 0 var(--nav-width);
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
@@ -15,7 +15,7 @@ body {
 }
 .nav__link{
     display: block;
-    padding: 12px 18px;
+    padding: 30px 18px;
     text-decoration: none;
     color: #eeeeee;
     font-weight: 500;
@@ -23,7 +23,7 @@ body {
 .nav__link:hover{
     background-color: rgba(255, 255, 255, 0.05);
 }
-#app {
+#app{
     margin: 2rem;
     line-height: 1.5;
     font-weight: 500;
